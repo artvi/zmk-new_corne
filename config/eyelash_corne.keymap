@@ -72,8 +72,8 @@
             bindings = <
 &kp TAB     &kp Q  &kp W  &kp E         &kp R          &kp T                                       &kp UP                &kp Y            &kp U         &kp I          &kp O    &kp P     &kp LBKT
 &kp LCTRL   &kp A  &kp S  &kp D         &kp F          &kp G                             &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &kp J         &kp K          &kp L    &kp SEMI  &mt RCTRL SQT
-&kp LSHIFT  &kp Z  &kp X  &kp C         &kp V          &kp B            &kp C_PP                   &kp DOWN              &kp N            &kp M         &kp COMMA      &kp DOT  &kp FSLH  &mt RALT RBKT
-                          &mt LGUI ESC  &lt LWR SPACE  &mt LSHIFT RET                                                    &mt LSHIFT BSPC  &lt RSE SPACE &mt LALT TAB
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V          &kp B            &kp C_PP                   &kp DOWN              &kp N            &kp M         &kp COMMA      &kp DOT  &kp FSLH  &mt RALT RBKT
+                          &mt LGUI ESC  &lt LWR SPACE  &mt LSHFT RET                                                    &mt LSHFT BSPC  &lt RSE SPACE &mt LALT TAB
             >;
 
              sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
