@@ -184,7 +184,7 @@ layers:
   - '&mkp MB5'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFF l
+  - RGB EFF
   - RGB EFR
   - RGB SPI
   - RGB BRI
