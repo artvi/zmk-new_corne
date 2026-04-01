@@ -95,11 +95,11 @@
         };
 
 //             .----------------------------------------------------------------------.          .-----------------------------------------------------------------------.
-//             |       `      |    !    |   @    |    #      |    $      |    %       |          |     7      |    8      |     9     |    0    |    *     |     (       |
+//             |       `      |    !    |   @    |    #      |    $      |    %       |          |     *      |    7      |     8     |    9    |    0     |     (       |
 //             |--------------+---------+--------+-----------+-----------+------------|          |------------+-----------+-----------+---------+----------+-------------|
-//             |     CTRL     |    ~    |        |           |           |    &       |          |     4      |    5      |     6     |    +    |    -     |     _       |
+//             |     CTRL     |    ~    |        |           |           |    &       |          |     |      |    4      |     5     |    6    |    -     |     +       |
 //             |--------------+---------+--------+-----------+-----------+------------|          |------------+-----------+-----------+---------+----------+-------------|
-//             |     ALT      |    ^    |    \   |           |           |            |          |     1      |    2      |     3     |    |    |    =     |     )       |
+//             |     ALT      |    ^    |    \   |           |           |            |          |     _      |    1      |     2     |    3    |    =     |     )       |
 //             '---------------------------------+-----------+-----------+------------'          |------------+-----------+-----------+----------------------------------'
 //                                               | GUI | ESC |           | SHFT | ENT |          | SHFT | DEL | ADJ | SPC | GUI | TAB |
 //                                               '-----------+-----------+------------'          '------------+-----------+-----------'
@@ -107,10 +107,10 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&kp GRAVE    &kp EXCL    &kp AT      &kp HASH      &kp DLLR       &kp PRCNT                                 &none                         &kp N7      &kp N8      &kp N9      &kp N0      &kp STAR   &kp LPAR
-&kp LCTRL    &kp TILDE   &none       &none         &none          &kp AMPS                   &none          &none            &none        &kp N4      &kp N5      &kp N6      &kp PLUS    &kp MINUS  &kp UNDERSCORE
-&kp LALT     &kp CARET   &kp BSLH    &none         &none          &none          &kp C_PP                   &none                         &kp N1      &kp N2      &kp N3      &kp PIPE    &kp EQUAL  &kp RPAR
-                                     &kp LGUI      &trans         &mt LSHFT RET                                                           &mt LSHFT DEL   &lt ADJ SPACE &mt RGUI TAB
+&kp GRAVE    &kp EXCL    &kp AT      &kp HASH      &kp DLLR       &kp PRCNT                                 &none                             &kp STAR        &kp N7          &kp N8      &kp N9      &kp N0         &kp LPAR
+&kp LCTRL    &kp TILDE   &none       &none         &none          &kp AMPS                   &none          &none            &none            &kp PIPE        &kp N4          &kp N5      &kp N6      &kp MINUS      &kp PLUS
+&kp LALT     &kp CARET   &kp BSLH    &none         &none          &none          &kp C_PP                   &none                             &kp UNDERSCORE  &kp N1          &kp N2      &kp N3      &kp EQUAL      &kp RPAR
+                                     &kp LGUI      &trans         &mt LSHFT RET                                                               &mt LSHFT DEL   &lt ADJ SPACE   &mt RGUI TAB
     >;
 
             sensor-bindings = <&scroll_encoder>;
