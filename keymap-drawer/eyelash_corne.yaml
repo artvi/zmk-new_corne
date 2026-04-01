@@ -57,11 +57,11 @@ layers:
   - $
   - '%'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '*'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '*'
   - (
   - $$mdi:apple-keyboard-control$$
   - '~'
@@ -72,12 +72,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '|'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - +
   - {t: '-', s: _}
-  - _
+  - +
   - $$mdi:apple-keyboard-option$$
   - ^
   - {t: \, s: '|'}
@@ -86,10 +86,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:play-pause$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - '|'
   - {t: '=', s: +}
   - )
   - LGUI
