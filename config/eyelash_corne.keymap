@@ -92,7 +92,7 @@
 //             |--------------+---------+--------+-----------+-----------+------------|          |------------+-----------+-----------+---------+----------+-------------|
 //             |     ALT      |         |        |           |           |            |          |     _      |    1      |     2     |    3    |    =     |     )       |
 //             '---------------------------------+-----------+-----------+------------'          |------------+-----------+-----------+----------------------------------'
-//                                               | GUI | ESC |           | SHFT | ENT |          | SHFT | DEL | ADJ | SPC | GUI | TAB |
+//                                               | GUI | ESC |           | SHFT | ENT |          | SHFT | BCK | ADJ | SPC | GUI | TAB |
 //                                               '-----------+-----------+------------'          '------------+-----------+-----------'
 
         lower_layer {
@@ -101,7 +101,7 @@
 &kp GRAVE    &kp EXCL    &kp AT      &kp HASH      &kp DLLR       &kp PRCNT                                 &none                             &kp STAR        &kp N7          &kp N8      &kp N9      &kp N0         &kp LPAR
 &kp LCTRL    &kp TILDE   &kp BSLH    &none         &kp CARET      &kp AMPS                   &none          &none            &none            &kp PIPE        &kp N4          &kp N5      &kp N6      &kp MINUS      &kp PLUS
 &kp LALT     &none       &none       &none         &none          &none          &trans                     &none                             &kp UNDERSCORE  &kp N1          &kp N2      &kp N3      &kp EQUAL      &kp RPAR
-                                     &kp LGUI      &trans         &mt LSHFT RET                                                               &mt LSHFT DEL   &lt ADJ SPACE   &mt RGUI TAB
+                                     &kp LGUI      &trans         &mt LSHFT RET                                                               &trans          &lt ADJ SPACE   &mt RGUI TAB
     >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -114,7 +114,7 @@
 //             |--------------+---------+--------+-----------+-----------+------------|          |------------+-----------+-----------+---------+----------+-------------|
 //             |     ALT      |         |        |           |           |            |          |    DEL→    |           |           |         |   CAPS   |     END     |
 //             '---------------------------------+-----------+-----------+------------'          |------------+-----------+-----------+----------------------------------'
-//                                               | GUI | ESC | ADJ | SPC | SHFT | ENT |          | SHFT | DEL |           | GUI | TAB |
+//                                               | GUI | ESC | ADJ | SPC | SHFT | ENT |          | SHFT | BCK |           | GUI | TAB |
 //                                               '-----------+-----------+------------'          '------------+-----------+-----------'
 
         raise_layer {
@@ -123,7 +123,7 @@
 &kp GRAVE  &none  &none  &none       &none           &none                                                    &mmv MOVE_UP                       &kp C_PREV       &kp C_PP    &kp C_NEXT   &none          &kp PSCRN     &kp HOME
 &kp LCTRL  &none  &none  &none       &none           &none                                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT    &kp LEFT         &kp DOWN    &kp UP       &kp RIGHT      &none         &kp RET
 &kp LALT   &none  &none  &none       &none           &none              &trans                                &mmv MOVE_DOWN                     &kp DEL          &none       &none        &none          &kp CAPS      &kp END
-                         &kp LGUI    &lt ADJ SPACE   &mt LSHFT RET                                                                               &mt LSHFT DEL    &trans      &mt RGUI TAB
+                         &kp LGUI    &lt ADJ SPACE   &mt LSHFT RET                                                                               &trans           &trans      &mt RGUI TAB
     >;
 
             sensor-bindings = <&scroll_encoder>;
