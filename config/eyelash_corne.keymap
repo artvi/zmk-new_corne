@@ -88,9 +88,9 @@
 //             .----------------------------------------------------------------------.          .-----------------------------------------------------------------------.
 //             |       `      |    !    |   @    |    #      |    $      |    %       |          |     *      |    7      |     8     |    9    |    0     |     (       |
 //             |--------------+---------+--------+-----------+-----------+------------|          |------------+-----------+-----------+---------+----------+-------------|
-//             |     CTRL     |    ~    |   \    |           |    ^      |    &       |          |     |      |    4      |     5     |    6    |    -     |     +       |
+//             |              |    ~    |   \    |           |    ^      |    &       |          |     |      |    4      |     5     |    6    |    -     |     +       |
 //             |--------------+---------+--------+-----------+-----------+------------|          |------------+-----------+-----------+---------+----------+-------------|
-//             |     ALT      |         |        |           |           |            |          |     _      |    1      |     2     |    3    |    =     |     )       |
+//             |              |         |        |           |           |            |          |     _      |    1      |     2     |    3    |    =     |     )       |
 //             '---------------------------------+-----------+-----------+------------'          |------------+-----------+-----------+----------------------------------'
 //                                               | GUI | ESC |           | SHFT | ENT |          | SHFT | BCK | ADJ | SPC | GUI | TAB |
 //                                               '-----------+-----------+------------'          '------------+-----------+-----------'
@@ -99,8 +99,8 @@
             display-name = "Lower";
             bindings = <
 &kp GRAVE    &kp EXCL    &kp AT      &kp HASH      &kp DLLR       &kp PRCNT                                 &none                             &kp STAR        &kp N7          &kp N8      &kp N9      &kp N0         &kp LPAR
-&kp LCTRL    &kp TILDE   &kp BSLH    &none         &kp CARET      &kp AMPS                   &none          &none            &none            &kp PIPE        &kp N4          &kp N5      &kp N6      &kp MINUS      &kp PLUS
-&kp LALT     &none       &none       &none         &none          &none          &trans                     &none                             &kp UNDERSCORE  &kp N1          &kp N2      &kp N3      &kp EQUAL      &kp RPAR
+&none        &kp TILDE   &kp BSLH    &none         &kp CARET      &kp AMPS                   &none          &none            &none            &kp PIPE        &kp N4          &kp N5      &kp N6      &kp MINUS      &kp PLUS
+&none        &none       &none       &none         &none          &none          &trans                     &none                             &kp UNDERSCORE  &kp N1          &kp N2      &kp N3      &kp EQUAL      &kp RPAR
                                      &kp LGUI      &trans         &mt LSHFT RET                                                               &trans          &lt ADJ SPACE   &mt RGUI TAB
     >;
 
