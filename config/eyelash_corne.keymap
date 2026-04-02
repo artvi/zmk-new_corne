@@ -70,7 +70,7 @@
 //             |--------------+---------+--------+-----------+-----------+------------|          |------------+-----------+-----------+---------+----------+--------------|
 //             |     CTRL     |    A    |    S   |     D     |     F     |      G     |          |     H      |   J       |     K     |    L    |    : ;   |      '"      |
 //             |--------------+---------+--------+-----------+-----------+------------|          |------------+-----------+-----------+---------+----------+--------------|
-//             |     ALT      |    Z    |    X   |     C     |     V     |      B     |          |     N      |   M       |    , <    |   . >   |    / ?   |  ALT |  ]}   |
+//             |     ALT      |    Z    |    X   |     C     |     V     |      B     |          |     N      |   M       |    , <    |   . >   |    / ?   |      ]}      |
 //             '---------------------------------+-----------+-----------+------------+          |------------+-----------+-----------+-----------------------------------'
 //                                               | GUI | ESC | LWR | SPC | SHFT | ENT |          | SHFT | BCK | RSE | SPC | ALT | TAB |
 //                                               '-----------+-----------+------------'          '------------+-----------+-----------'
@@ -80,7 +80,7 @@
             bindings = <
 &none       &kp Q  &kp W  &kp E         &kp R          &kp T                                         &kp UP                &kp Y            &kp U         &kp I          &kp O    &kp P     &kp LBKT
 &kp LCTRL   &kp A  &kp S  &kp D         &kp F          &kp G                             &kp LEFT    &kp RET    &kp RIGHT  &kp H            &kp J         &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LALT    &kp Z  &kp X  &kp C         &kp V          &kp B            &kp C_MUTE                   &kp DOWN              &kp N            &kp M         &kp COMMA      &kp DOT  &kp FSLH  &mt RALT RBKT
+&kp LALT    &kp Z  &kp X  &kp C         &kp V          &kp B            &kp C_MUTE                   &kp DOWN              &kp N            &kp M         &kp COMMA      &kp DOT  &kp FSLH  &kp RBKT
                           &mt LGUI ESC  &lt LWR SPACE  &mt LSHFT RET                                                       &mt LSHFT BSPC   &lt RSE SPACE &mt LALT TAB
             >;
 
