@@ -199,3 +199,7 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
+- p: [31, 32]
+  k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+- p: [32, 33]
+  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
