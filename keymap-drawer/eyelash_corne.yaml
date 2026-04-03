@@ -48,7 +48,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: Raise}
-  - {t: '$$mdi:keyboard-tab$$', h: GUI}
+  - {t: '$$mdi:keyboard-tab$$', h: RGUI}
   Lower:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '!'
