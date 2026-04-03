@@ -205,3 +205,5 @@ combos:
   k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
 - p: [23, 24]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [17, 16]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
