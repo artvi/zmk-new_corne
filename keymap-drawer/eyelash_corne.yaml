@@ -205,3 +205,5 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [16, 17]
   k: ':'
+- p: [0, 28]
+  k: $$mdi:progress-download$$
