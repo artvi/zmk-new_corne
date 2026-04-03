@@ -73,6 +73,16 @@
             bindings = <&kp COLON>;
             key-positions = <16 17>;
         };
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <29 30>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <30 31>;
+        };
     };
 
     behaviors {
