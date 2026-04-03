@@ -197,8 +197,6 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [1, 15, 29]
-  k: '&soft_off'
 - p: [31, 32]
   k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
 - p: [32, 33]
