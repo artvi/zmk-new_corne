@@ -78,6 +78,11 @@
             bindings = <&kp LG(V)>;
             key-positions = <32 33>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <23 24>;
+        };
     };
 
     keymap {
