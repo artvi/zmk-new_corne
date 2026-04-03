@@ -73,6 +73,14 @@
             bindings = <&kp ENTER>;
             key-positions = <23 24>;
         };
+
+        enter_left {
+            bindings = <&kp RET>;
+            key-positions = <17 16>;
+        };
+    };
+
+    behaviors {
     };
 
     keymap {
@@ -96,10 +104,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&none      &kp Q  &kp W  &kp E         &kp R          &kp T                                     &kp UP               &kp Y           &kp U          &kp I        &kp O    &kp P     &kp LBKT
-&kp LCTRL  &kp A  &kp S  &kp D         &kp F          &kp G                           &kp LEFT  &kp RET   &kp RIGHT  &kp H           &kp J          &kp K        &kp L    &kp SEMI  &kp SQT
-&kp LALT   &kp Z  &kp X  &kp C         &kp V          &kp B             &kp C_MUTE              &kp DOWN             &kp N           &kp M          &kp COMMA    &kp DOT  &kp FSLH  &kp RBKT
-                         &mt LGUI ESC  &lt LWR SPACE  &kp LSHFT                                                      &mt RSHFT BSPC  &lt RSE SPACE  &mt RGUI TAB
+&none      &kp Q  &kp W  &kp E         &kp R          &kp T                              &kp UP               &kp Y           &kp U          &kp I         &kp O    &kp P     &kp LBKT
+&kp LCTRL  &kp A  &kp S  &kp D         &kp F          &kp G                    &kp LEFT  &kp RET   &kp RIGHT  &kp H           &kp J          &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LALT   &kp Z  &kp X  &kp C         &kp V          &kp B      &kp C_MUTE              &kp DOWN             &kp N           &kp M          &kp COMMA     &kp DOT  &kp FSLH  &kp RBKT
+                         &mt LGUI ESC  &lt LWR SPACE  &kp LSHFT                                               &mt RSHFT BSPC  &lt RSE SPACE  &mt RGUI TAB
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
