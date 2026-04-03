@@ -73,6 +73,11 @@
             bindings = <&kp COLON>;
             key-positions = <16 17>;
         };
+
+        bootload {
+            bindings = <&bootloader>;
+            key-positions = <0 28>;
+        };
     };
 
     behaviors {
