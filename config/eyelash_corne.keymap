@@ -164,9 +164,9 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&none  &none  &none  &none   &none          &none                             &mmv MOVE_UP                     &kp C_PREV  &kp C_PP  &kp C_NEXT  &none      &kp PSCRN  &kp HOME
-&none  &none  &none  &none   &kp LC(CARET)  &none             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT    &kp DOWN  &kp UP      &kp RIGHT  &none      &kp RET
-&none  &none  &none  &none   &none          &none   &trans                    &mmv MOVE_DOWN                   &kp DEL     &none     &none       &none      &kp CAPS   &kp END
+&none  &none  &none  &none   &none          &none                             &mmv MOVE_UP                     &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp PAGE_UP    &kp PSCRN  &kp HOME
+&none  &none  &none  &none   &kp LC(CARET)  &none             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT    &kp DOWN  &kp UP      &kp RIGHT      &none      &kp RET
+&none  &none  &none  &none   &none          &none   &trans                    &mmv MOVE_DOWN                   &kp DEL     &none     &none       &kp PAGE_DOWN  &kp CAPS   &kp END
                      &trans  &lt ADJ SPACE  &trans                                                             &trans      &trans    &trans
             >;
 
